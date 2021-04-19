@@ -40,7 +40,7 @@ const team = {
             firstName,
             lastName,
             age
-        }, 
+        }; 
         this._players.push(player);
     },
     addGame(opponent, teamPoints, opponentPoints) {
@@ -48,7 +48,7 @@ const team = {
             opponent, 
             teamPoints, 
             opponentPoints
-        },
+        };
         this._games.push(newGame);
     }
 };
